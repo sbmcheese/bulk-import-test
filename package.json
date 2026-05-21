@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0 --port 4173"
+    "start": "vite preview --host 0.0.0.0 --port 80"
   },
   "dependencies": {
     "dotenv": "^16.5.0",

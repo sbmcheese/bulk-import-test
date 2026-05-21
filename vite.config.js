@@ -8,4 +8,12 @@ dotenv.config();
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), directDbPlugin()],
+  server: {
+    port: 80,
+    host: true,
+  },
+  preview: {
+    port: 80,
+    host: true,
+  },
 });
