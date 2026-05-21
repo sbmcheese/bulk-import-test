@@ -11,9 +11,11 @@ export default defineConfig({
   server: {
     port: 80,
     host: true,
+    allowedHosts: ["screenpop-import_upstream", "localhost", "127.0.0.1"],
   },
   preview: {
     port: 80,
     host: true,
+    allowedHosts: ["screenpop-import_upstream", "localhost", "127.0.0.1"],
   },
 });
